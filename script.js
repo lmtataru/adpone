@@ -5,7 +5,7 @@ function countWords() {
     var word = "aaaabbbbbcca";
     var result = [];
     var counter = 1;
-    for (var i = 0; i <= word.length; i++) {
+    for (var i = 0; i < word.length; i++) {
         if (word[i] !== word[i + 1]) {
             result.push([word[i], counter]);
             counter = 1;
